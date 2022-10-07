@@ -47,36 +47,58 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 6: Node.js: ORM e Autenticação
 
-- [ ] 6-1: __
+- [ ] 6-1: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 6-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 6-3: _ORM - Associations N:N e Transactions_
+- [ ] 6-4: _JWT - (JSON Web Token)_
+- [ ] 6-5: _[Projeto - API de Blogs]()_
 
 ##### Seção 7: Deployment
 
-- [ ] 7-1: __
+- [ ] 7-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 7-2: _Deploy Docker & Heroku_
+- [ ] 7-3: _[Projeto - Stranger Things]()_
 
 ##### Seção 8: Introdução a TypeScript
 
-- [ ] 8-1: __
+- [ ] 8-1: _Introdução ao TypeScript_
+- [ ] 8-2: _Tipagem Estática e Generics_
+- [ ] 8-3: _Express com TypeScript_
+- [ ] 8-4: _[Projeto - Trybesmith]()_
 
 ##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 9-1: __
+- [ ] 9-1: _Introdução à Orientação a Objetos_
+- [ ] 9-2: _Herança e Interface_
+- [ ] 9-3: _Polimorfismo_
+- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 9-5: _SOLID - Princípios L e I_
+- [ ] 9-6: _[Projeto - Trybers and Dragons]()_
 
-##### Seção 10: Projeto TFC - Trbe Futebol Clube
+##### Seção 10: Projeto TFC - Trybe Futebol Clube
 
-- [ ] 10-1: __
+- [ ] 10-1: _[Projeto - Trybe Futebol Clube]()_
 
 ##### Seção 11: Introdução - MongoDB
 
-- [ ] 11-1: __
+- [ ] 11-1: _MongoDB - Introdução_
+- [ ] 11-2: _Filter Operators_
+- [ ] 11-3: _Operadores de consulta_
+- [ ] 11-4: _Updates simples_
+- [ ] 11-5: _Updates complexos - Arrays_
+- [ ] 11-6: _[Projeto - Commerce]()_
 
 ##### Seção 12: MongoDB com Node.js e POO
 
-- [ ] 12-1: __
+- [ ] 12-1: _Mongoose e arquitetura MSC (Camada Model)_
+- [ ] 12-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [ ] 12-3: _[Projeto - Car Shop]()_
 
 ##### Seção 13: Projeto - App de Delivery
 
-- [ ] 13-1: __
+- [ ] 13-1: _[Projeto - App de Delivery]()_
 
 ##### Seção 14: MasterClass - VPS, CI/CD
 
-- [ ] 14-1: __
+- [ ] 14-1: _VPS_
+- [ ] 14-2: _Dia 2_
