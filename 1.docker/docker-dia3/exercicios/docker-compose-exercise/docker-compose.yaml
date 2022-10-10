@@ -1,0 +1,6 @@
+version: '3'
+services:
+  frontend:
+    build: ../docker-compose-exercise
+    ports:
+    - 8080:80
