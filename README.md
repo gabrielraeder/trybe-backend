@@ -12,7 +12,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 1-1: _Utilizando Containers_
 - [X] 1-2: _Manipulando Imagens Docker_
-- [ ] 1-3: _Orquestrando containers com Docker Compose _
+- [X] 1-3: _Orquestrando containers com Docker Compose_
 - [ ] 1-4: _[Projeto - Docker To-do-list]()_
 
 ##### Seção 2: Funções SQL, JOINs e Normalização
