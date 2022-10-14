@@ -1,0 +1,15 @@
+SELECT 'this is SLQ Exercise, Practice and Solution';
+SELECT 1 AS one, 2 AS two, 3 AS three;
+SELECT 10 + 15;
+SELECT 10 * 5 / 2;
+SELECT * FROM Scientists.Scientists;
+SELECT Name AS 'Nome do Projeto', Hours AS 'Tempo de Trabalho' FROM Scientists.Projects;
+SELECT Name FROM Scientists.Scientists ORDER BY Name;
+SELECT Name FROM Scientists.Projects ORDER BY Name DESC;
+SELECT CONCAT('O projeto ', Name, ' precisou de ', Hours, ' para ser concluído.') FROM Scientists.Projects;
+SELECT * FROM Scientists.Projects ORDER BY Hours DESC LIMIT 3;
+SELECT DISTINCT Project FROM Scientists.AssignedTo;
+SELECT Name FROM Scientists.Projects ORDER BY Hours DESC LIMIT 1;
+SELECT Name FROM Scientists.Projects ORDER BY Hours LIMIT 1 OFFSET 1;
+SELECT * FROM Scientists.Projects ORDER BY Hours LIMIT 5;
+SELECT CONCAT('Existem ', COUNT(Name), ' cientistas.') as resultado FROM Scientists;
