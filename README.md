@@ -13,21 +13,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 1-1: _Utilizando Containers_
 - [X] 1-2: _Manipulando Imagens Docker_
 - [X] 1-3: _Orquestrando containers com Docker Compose_
-- [ ] 1-4: _[Projeto - Docker To-do-list]()_
+- [X] 1-4: _[Projeto - Docker To-do-list]()_
 
-##### Seção 2: Funções SQL, JOINs e Normalização
+##### Seção 2: Introdução SQL
 
-- [ ] 2-1: _Funções mais usadas no SQL_
-- [ ] 2-2: _Descomplicando JOINs_
-- [ ] 2-3: _Transformando idéias em um modelo de dados_
-- [ ] 2-4: _[Projeto - All for One]()_
+- [X] 2-1: _Banco de dados SQL_
+- [X] 2-2: _Encontrando dados em um banco de dados_
+- [ ] 2-3: _Filtrando dados de forma específica_
+- [ ] 2-4: _Manipulando tabelas_
+- [ ] 2-5: _[Projeto - All for One]()_
 
-##### Seção 3: Bancos de dados relacionais
+##### Seção 3: Funções SQL, JOINs e Normalização
 
-- [ ] 3-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 3-2: _Normalização, Formas Normais e Dumps_
-- [ ] 3-3: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 3-4: _[Projeto - One For All]()_
+- [ ] 3-1: _Funções mais usadas no SQL_
+- [ ] 3-2: _Descomplicando JOINs_
+- [ ] 3-3: _Transformando idéias em um modelo de dados_
+- [ ] 3-4: _[Projeto - All for One]()_
 
 ##### Seção 4: Intro - NodeJS
 
