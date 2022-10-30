@@ -25,16 +25,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 3: Funções SQL, JOINs e Normalização
 
-- [ ] 3-1: _Funções mais usadas no SQL_
-- [ ] 3-2: _Descomplicando JOINs_
-- [ ] 3-3: _Transformando idéias em um modelo de dados_
-- [ ] 3-4: _[Projeto - One for All]()_
+- [X] 3-1: _Funções mais usadas no SQL_
+- [X] 3-2: _Descomplicando JOINs_
+- [X] 3-3: _Transformando idéias em um modelo de dados_
+- [X] 3-4: _[Projeto - One for All]()_
 
 ##### Seção 4: Intro - NodeJS
 
-- [ ] 4-1: _Runtime Assíncrono_
-- [ ] 4-2: _API REST com Express_
-- [ ] 4-3: _Testes de Integração_
+- [X] 4-1: _Runtime Assíncrono_
+- [X] 4-2: _API REST com Express_
+- [X] 4-3: _Testes de Integração_
 - [ ] 4-4: _Express e Middlewares_
 - [ ] 4-5: _Express e MySQL_
 - [ ] 4-6: _[Projeto - Talker Manager]()_
