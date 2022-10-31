@@ -73,4 +73,5 @@ module.exports = {
   getChocolatesByName,
   updateChocolate,
   addNewChocolate,
+  readCacauTrybeFile,
 };
