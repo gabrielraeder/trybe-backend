@@ -48,7 +48,7 @@ app.put('/chocolates/:id', async (req, res) => {
   const updatedData = req.body;
   const updated = await cacauTrybe.updateChocolate(+id, updatedData);
   if (updated.message) return res.status(404).json(updated);
-  return res.status(200).json(updated);
+  return res.status(201).json(updated);
 })
 
 app.post('/chocolates', async (req, res) => {
@@ -57,7 +57,7 @@ app.post('/chocolates', async (req, res) => {
     return res.status(404).json({message: "missing information"});
   }
   const all = await cacauTrybe.addNewChocolate(data);
-  return res.status(200).json(all);
+  return res.status(201).json(all);
 })
 
 module.exports = app;

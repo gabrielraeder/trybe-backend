@@ -146,7 +146,7 @@ describe('Testando a API Cacau Trybe', function () {
         .request(app)
         .put('/chocolates/1').send(sendObj);
 
-      expect(response.status).to.be.equal(200);
+      expect(response.status).to.be.equal(201);
       expect(response.body.chocolate.id).to.equal(1);
       expect(response.body.chocolate.name).to.equal("Mint Pretty Good");
       expect(response.body.chocolate.brandId).to.equal(2);
@@ -178,7 +178,7 @@ describe('Testando a API Cacau Trybe', function () {
         .request(app)
         .post('/chocolates').send(sendObj);
 
-      expect(response.status).to.be.equal(200);
+      expect(response.status).to.be.equal(201);
       expect(response.body.chocolates).to.have.length(5);
       expect(response.body.chocolates[4].name).to.equal("Mint Pretty Good!!");
       expect(response.body.chocolates[4].brandId).to.equal(2);
