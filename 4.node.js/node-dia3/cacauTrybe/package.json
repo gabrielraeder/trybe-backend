@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/**/*.test.js --exit"
+    "test": "mocha tests/**/*.test.js --exit",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,7 @@
     "chai": "4.3",
     "chai-http": "4.3",
     "mocha": "10.0",
+    "nodemon": "^2.0.20",
     "sinon": "14.0"
   },
   "dependencies": {
