@@ -4,9 +4,11 @@ const ratingValidate = (req, res, next) => {
   if (Number.isInteger(rating) && between) {
     return next();
   }
-  return res.status(400).json(
-    { message: "O campo rating deve ser um número inteiro entre 1 e 5" }
-  );
+  const error = {
+    statusCode: 401,
+    message: "O campo rating deve ser um número inteiro entre 1 e 5",
+  }
+  return nest(error);
 }
 
 module.exports = ratingValidate;

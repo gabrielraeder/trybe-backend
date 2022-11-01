@@ -11,13 +11,9 @@ app.use(router);
 
 
 // ERROS
-app.use((err, _req, _res, next) => {
-  console.error(err.stack);
-  next(err);
-});
-
 app.use((err, _req, res, _next) => {
-  res.status(500).json({ message: `Algo deu errado!! Mensagem: ${err.message}` });
+  const { statusCode, message } = err;
+  res.status(statusCode).json({ message });
 });
 
 module.exports = app;

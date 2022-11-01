@@ -4,7 +4,11 @@ const signupValidate = (req, res, next) => {
   if (requiredProps.every(prop => prop in data)) {
     return next();
   }
-  return res.status(401).json({ message: "Campos ausentes!" })
+  const error = {
+    statusCode: 401,
+    message: "Campos ausentes!",
+  }
+  return next(error);
 }
 
 module.exports = signupValidate;
