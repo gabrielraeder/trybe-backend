@@ -7,7 +7,6 @@ const getAll = async () => {
 };
 
 const getById = async (id) => {
-  console.log(id);
   const user = await User.findByPk(id);
 
   return user;
