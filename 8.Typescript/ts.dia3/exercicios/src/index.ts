@@ -3,7 +3,7 @@ import 'express-async-errors';
 import userRouter from './routes/user.routes';
 import postRouter from './routes/post.routes';
 
-const app = express();
+const app: express.Application = express();
 
 app.use(express.json());
 

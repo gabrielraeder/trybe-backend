@@ -1,4 +1,4 @@
-import { Pool, ResultSetHeader } from 'mysql2/promise';
+import { Pool, ResultSetHeader, RowDataPacket } from 'mysql2/promise';
 import User from '../interfaces/user.interface';
 
 export default class UserModel {
@@ -18,6 +18,13 @@ export default class UserModel {
     const result = await this.connection
     .execute('SELECT * FROM Users WHERE id=?', [id]);
     const [rows] = result;
+    const [user] = rows as User[];
+    return user;
+  };
+
+  public async getByEmail(email:string): Promise<User> {
+    const [rows] = await this.connection
+    .execute('SELECT * FROM Users WHERE email=?', [email]);
     const [user] = rows as User[];
     return user;
   };

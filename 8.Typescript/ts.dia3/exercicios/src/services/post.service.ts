@@ -37,4 +37,9 @@ export default class PostService {
 
     return this.model.remove(id);
   };
+
+  public async querySearch(q: string): Promise<Post[]> {
+    const posts = await this.model.querySearch(q);
+    return posts;
+  }
 };

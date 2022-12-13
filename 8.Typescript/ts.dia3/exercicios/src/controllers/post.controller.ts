@@ -35,4 +35,15 @@ export default class PostController {
     await this.postService.remove(+id);
     res.status(204).end();
   };
+
+  public querySearch = async (req: Request, res: Response) => {
+    const { q } = req.query;
+    if (!q) {
+      const posts = await this.postService.getAll();
+      return res.status(200).json(posts);
+    };
+    
+    const posts = await this.postService.querySearch(q as string);
+    return res.status(200).json(posts);
+  };
 };

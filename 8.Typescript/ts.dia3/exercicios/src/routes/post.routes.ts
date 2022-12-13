@@ -4,12 +4,13 @@ import { validatePost } from '../middlewares/post.middleware';
 
 const router = Router();
 
-const userController = new PostController();
+const postController = new PostController();
 
-router.get('/', userController.getAll);
-router.get('/:id', userController.getById);
-router.post('/', validatePost, userController.create);
-router.put('/:id', validatePost, userController.update);
-router.delete('/:id', userController.remove);
+router.get('/search', postController.querySearch)
+router.get('/', postController.getAll);
+router.get('/:id', postController.getById);
+router.post('/', validatePost, postController.create);
+router.put('/:id', validatePost, postController.update);
+router.delete('/:id', postController.remove);
 
 export default router;

@@ -48,4 +48,12 @@ export default class PostModel {
       [id],
     );
   };
+
+  public async querySearch(q: string): Promise<Post[]> {
+    const [rows] = await this.connection.execute(
+      'SELECT * FROM Posts WHERE author=? OR category=? OR publicationDAte=?',
+      [q, q, q],
+    );
+      return rows as Post[];
+  }
 };
