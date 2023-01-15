@@ -50,31 +50,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 6-1: _ORM - Interface da aplicação com o banco de dados_
 - [X] 6-2: _ORM - Associations 1:1 e 1:N_
-- [ ] 6-3: _ORM - Associations N:N e Transactions_
-- [ ] 6-4: _JWT - (JSON Web Token)_
-- [ ] 6-5: _[Projeto - API de Blogs]()_
+- [X] 6-3: _ORM - Associations N:N e Transactions_
+- [X] 6-4: _JWT - (JSON Web Token)_
+- [X] 6-5: _[Projeto - API de Blogs]()_
 
 ##### Seção 7: Deployment
 
-- [ ] 7-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 7-2: _Deploy Docker & Heroku_
-- [ ] 7-3: _[Projeto - Stranger Things]()_
+- [X] 7-1: _Infraestrutura - Deploy com Heroku_
+- [X] 7-2: _Deploy Docker & Heroku_
+- [X] 7-3: _[Projeto - Stranger Things]()_
 
 ##### Seção 8: Introdução a TypeScript
 
-- [ ] 8-1: _Introdução ao TypeScript_
-- [ ] 8-2: _Tipagem Estática e Generics_
-- [ ] 8-3: _Express com TypeScript_
-- [ ] 8-4: _[Projeto - Trybesmith]()_
+- [X] 8-1: _Introdução ao TypeScript_
+- [X] 8-2: _Tipagem Estática e Generics_
+- [X] 8-3: _Express com TypeScript_
+- [X] 8-4: _[Projeto - Trybesmith]()_
 
 ##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 9-1: _Introdução à Orientação a Objetos_
-- [ ] 9-2: _Herança e Interface_
-- [ ] 9-3: _Polimorfismo_
-- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 9-5: _SOLID - Princípios L e I_
-- [ ] 9-6: _[Projeto - Trybers and Dragons]()_
+- [X] 9-1: _Introdução à Orientação a Objetos_
+- [X] 9-2: _Herança e Interface_
+- [X] 9-3: _Polimorfismo_
+- [X] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [X] 9-5: _SOLID - Princípios L e I_
+- [X] 9-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Seção 10: Projeto TFC - Trybe Futebol Clube
 
