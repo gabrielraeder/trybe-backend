@@ -13,7 +13,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 1-1: _Utilizando Containers_
 - [X] 1-2: _Manipulando Imagens Docker_
 - [X] 1-3: _Orquestrando containers com Docker Compose_
-- [X] 1-4: _[Projeto - Docker To-do-list]()_
+- [X] 1-4: _[Projeto - Docker To-do-list](https://github.com/gabrielraeder/docker-todo-list)_
 
 ##### Seção 2: Introdução SQL
 
@@ -21,14 +21,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 2-2: _Encontrando dados em um banco de dados_
 - [X] 2-3: _Filtrando dados de forma específica_
 - [X] 2-4: _Manipulando tabelas_
-- [X] 2-5: _[Projeto - All for One]()_
+- [X] 2-5: _[Projeto - All for One](https://github.com/gabrielraeder/mysql-all-for-one)_
 
 ##### Seção 3: Funções SQL, JOINs e Normalização
 
 - [X] 3-1: _Funções mais usadas no SQL_
 - [X] 3-2: _Descomplicando JOINs_
 - [X] 3-3: _Transformando idéias em um modelo de dados_
-- [X] 3-4: _[Projeto - One for All]()_
+- [X] 3-4: _[Projeto - One for All](https://github.com/gabrielraeder/mysql-one-for-all)_
 
 ##### Seção 4: Intro - NodeJS
 
@@ -37,14 +37,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-3: _Testes de Integração_
 - [X] 4-4: _Express e Middlewares_
 - [X] 4-5: _Express e MySQL_
-- [X] 4-6: _[Projeto - Talker Manager]()_
+- [X] 4-6: _[Projeto - Talker Manager](https://github.com/gabrielraeder/talker-manager)_
 
 ##### Seção 5: Arquitetura de Software: Model, Service e Controller
 
 - [X] 5-1: _Camada Model_
 - [X] 5-2: _Camada Service_
 - [X] 5-3: _Camada Controller_
-- [X] 5-4: _[Projeto - Store Manager]()_
+- [X] 5-4: _[Projeto - Store Manager](https://github.com/gabrielraeder/project-store-manager)_
 
 ##### Seção 6: Node.js: ORM e Autenticação
 
@@ -52,20 +52,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-2: _ORM - Associations 1:1 e 1:N_
 - [X] 6-3: _ORM - Associations N:N e Transactions_
 - [X] 6-4: _JWT - (JSON Web Token)_
-- [X] 6-5: _[Projeto - API de Blogs]()_
+- [X] 6-5: _[Projeto - API de Blogs](https://github.com/gabrielraeder/blogs-api)_
 
 ##### Seção 7: Deployment
 
 - [X] 7-1: _Infraestrutura - Deploy com Heroku_
 - [X] 7-2: _Deploy Docker & Heroku_
-- [X] 7-3: _[Projeto - Stranger Things]()_
 
 ##### Seção 8: Introdução a TypeScript
 
 - [X] 8-1: _Introdução ao TypeScript_
 - [X] 8-2: _Tipagem Estática e Generics_
 - [X] 8-3: _Express com TypeScript_
-- [X] 8-4: _[Projeto - Trybesmith]()_
+- [X] 8-4: _[Projeto - Trybesmith](https://github.com/gabrielraeder/trybesmith)_
 
 ##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
