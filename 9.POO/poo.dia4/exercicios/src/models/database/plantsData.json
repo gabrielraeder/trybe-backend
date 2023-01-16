@@ -14,5 +14,13 @@
     "needsSun": true,
     "origin": "Brazil",
     "waterFrequency": 84.23
+  },
+  {
+    "id": 3,
+    "breed": "Plantinha",
+    "size": 50,
+    "needsSun": true,
+    "origin": "Brazil",
+    "waterFrequency": 46.5
   }
 ]
