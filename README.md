@@ -77,11 +77,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 10: Projeto TFC - Trybe Futebol Clube
 
-- [ ] 10-1: _[Projeto - Trybe Futebol Clube]()_
+- [X] 10-1: _[Projeto - Trybe Futebol Clube]()_
 
 ##### Seção 11: Introdução - MongoDB
 
-- [ ] 11-1: _MongoDB - Introdução_
+- [X] 11-1: _MongoDB - Introdução_
 - [ ] 11-2: _Filter Operators_
 - [ ] 11-3: _Operadores de consulta_
 - [ ] 11-4: _Updates simples_
