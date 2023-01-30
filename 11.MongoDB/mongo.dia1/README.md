@@ -31,10 +31,17 @@ db.bios.find().limit(2).skip(5);
 ```
 
 Utilizando o mongoimport, importe o arquivo books.json para a sua instância local do MongoDB e utilize a coleção books para construir as seguintes consultas:
+```
+docker exec -it mongoDB bash
+mongoimport --db class --collection books /tmp/books.json --jsonArray    
+```
+```
+use class
+```
 
 🚀 Exercício 7: Retorne a quantidade de documentos da coleção books.
 ```
-
+db.books.countDocuments();
 ```
 
 🚀 Exercício 8: Conte quantos livros existem com o status = "PUBLISH".
