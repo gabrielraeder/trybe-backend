@@ -76,6 +76,19 @@ db.restaurants.find({}, { _id: 0, name: 1 }).sort({ name: 1 });
 
 2 - Ordene os restaurantes de forma decrescente baseado nas avaliações.
 ```
-db.restaurants.find({}, { _id: 0, name: 1, rating: 1 }).sort({ name: 1 });
+db.restaurants.find({}, { _id: 0, name: 1, rating: 1 }).sort({ rating: -1 });
+
+```
+
+### Removendo documentos
+
+1 - Remova o primeiro restaurante que possua culinária do tipo Ice Cream, Gelato, Yogurt, Ices.
+```
+db.restaurants.deleteOne({ cuisine: "Ice Cream, Gelato, Yogurt, Ices" });
+
+```
+2 - Remova todos os restaurantes que possuem culinária do tipo American.
+```
+db.restaurants.deleteMany({ cuisine: 'American' });
 
 ```
