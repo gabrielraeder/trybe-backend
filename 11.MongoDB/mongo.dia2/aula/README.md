@@ -29,3 +29,53 @@ db.restaurants.countDocuments({ rating: { $lt: 4 } });
 db.restaurants.find({ rating: { $nin: [5, 6, 7] } }, { name: 1, rating: 1 });
 db.restaurants.countDocuments({ rating: { $nin: [5, 6, 7] } });
 ```
+
+### Operadores Lógicos
+
+1 - Selecione e faça a contagem dos restaurantes que não possuem avaliação menor ou igual a 5, essa consulta também deve retornar restaurantes que não possuem o campo de avaliação.
+```
+db.restaurants.find({ rating: { $not: { $lte: 5 } } },  { name: 1, rating: 1 });
+db.restaurants.countDocuments({ rating: { $not: { $lte: 5 } } });
+```
+
+2 - Selecione e faça a contagem dos restaurantes em que a avaliação seja maior ou igual a 6, ou restaurantes localizados no bairro Brooklyn.
+```
+db.restaurants.countDocuments({ $or: [{ rating: { $gte: 6 } }, { borough: 'Brooklyn' }] });
+```
+
+3 - Selecione e faça a contagem dos restaurantes localizados nos bairros Queens, Staten Island e Brooklyn e possuem avaliação maior que 4.
+```
+db.restaurants.countDocuments({ $and: [{ borough: { $in: ['Queens', 'Staten Island', 'Brooklyn'] } }, { rating: { $gt: 4 } }] });
+
+```
+
+4 - Selecione e faça a contagem dos restaurantes onde nem o campo avaliação seja igual a 1, nem o campo culinária seja do tipo American.
+```
+db.restaurants.countDocuments({ $nor: [{ rating: { $eq: 1 } }, { cuisine: "American" }] });
+```
+
+5 - Selecione e faça a contagem dos restaurantes que satisfaçam ambas as condições a seguir:
+
+  A avaliação seja maior que 6 OU menor que 10.
+  Estejam localizados no bairro Brooklyn OU não possuam culinária do tipo Delicatessen.
+```
+db.restaurants.countDocuments({
+  $and: [
+    { $or: [{ rating: { $gt: 6, $lt: 10 } }] },
+    { $or: [{ borough: 'Brooklyn' }, { cuisine: { $ne: 'Delicatessen' } }] }
+  ] 
+})
+```
+
+### Método sort()
+
+1 - Ordene alfabeticamente os restaurantes pelo nome (atributo name).
+```
+db.restaurants.find({}, { _id: 0, name: 1 }).sort({ name: 1 });
+```
+
+2 - Ordene os restaurantes de forma decrescente baseado nas avaliações.
+```
+db.restaurants.find({}, { _id: 0, name: 1, rating: 1 }).sort({ name: 1 });
+
+```
