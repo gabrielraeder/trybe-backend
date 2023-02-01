@@ -1,0 +1,76 @@
+db.movies.insertMany([
+  {
+    title: "Batman",
+    category: [
+      "action",
+      "adventure"
+    ],
+    imdbRating: 7.7,
+    budget: 35,
+    grossWorldwide: 411,
+    ratings: [ 85, 100, 102, 105 ],
+    description: "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker."
+  },
+  {
+    title: "Godzilla",
+    category: [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    imdbRating: 6.6,
+    budget: 160,
+    grossWorldwide: 524,
+    ratings: [ 78, 52, 95, 102 ],
+    description: "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity."
+  },
+  {
+    title: "Home Alone",
+    category: [
+      "family",
+      "comedy"
+    ],
+    imdbRating: 7.4,
+    budget: 0,
+    grossWorldwide: 476,
+    ratings: [ 200, 99, 65 ],
+    description: "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation."
+  },
+  {
+    title: "Matrix",
+    category: [
+      "sci-fi",
+      "action"
+    ],
+    imdbRating: 8.7,
+    budget: 63,
+    grossWorldwide: 467,
+    ratings: [ 77, 92, 150, 180 ],
+    description: "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+  },
+  {
+    title: "Pulp Fiction",
+    category: [
+      "crime",
+      "drama"
+    ],
+    imdbRating: 8.9,
+    budget: 8,
+    grossWorldwide: 213,
+    ratings: [ 110, 84, 95, 90 ],
+    description: "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+   {
+     title: "Stealth",
+     category: [
+       "action",
+       "adventure",
+       "sci-fi"
+     ],
+     imdbRating: 5.1,
+     budget: 135,
+     grossWorldwide: 79,
+     ratings: [ 50, 48, 39, 67 ],
+     description: "Deeply ensconced in a top-secret military program, three pilots struggle to bring an artificial intelligence program under control before it initiates the next world war."
+   }
+]);
