@@ -1,0 +1,223 @@
+// 1: Adicione a categoria "superhero" ao filme Batman.
+use('cinema');
+db.movies.updateOne({
+  title: 'Batman'
+}, {
+  $push: {
+    category: 'superhero'
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+
+// 2: Utilizando o modificador $each, adicione as categorias "villain" e "comic-based" ao filme Batman.
+use('cinema');
+db.movies.updateOne({
+  title: 'Batman'
+}, {
+  $push: {
+    category: {
+      $each: ['villain', 'comic-based']
+    }
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+
+// 3: Remova a categoria "action" do filme Batman.
+use('cinema');
+db.movies.updateOne({
+  title: 'Batman'
+}, {
+  $pull: {
+    category: 'action'
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+
+// 4: Remova o primeiro elemento do array category do filme Batman.
+use('cinema');
+db.movies.updateOne({
+  title: 'Batman'
+}, {
+  $pop: {
+    category: -1
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+
+// 5: Remova o último elemento do array category do filme Batman.
+use('cinema');
+db.movies.updateOne({
+  title: 'Batman'
+}, {
+  $pop: {
+    category: 1
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+
+// 6: Adicione o elemento "action" ao array category do filme Batman, garantindo que esse valor não se duplique.
+use('cinema');
+db.movies.updateOne({
+  title: 'Batman'
+}, {
+  $addToSet: {
+    category: 'action'
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+
+// 7: Adicione a categoria "90's" aos filmes Batman e Home Alone.
+use('cinema');
+db.movies.updateMany({
+  title: {
+    $in: ['Batman', 'Home Alone']
+  }
+}, {
+  $addToSet: {
+    category: '90\'s'
+  }
+});
+db.movies.find({
+  title: {
+    $in: ['Batman', 'Home Alone']
+  }
+});
+
+
+// 8: Crie um array de documentos chamado cast para o filme Home Alone com os seguintes dados:
+const castHomeAlone = [{
+    "actor": "Macaulay Culkin",
+    "character": "Kevin"
+  },
+  {
+    "actor": "Joe Pesci",
+    "character": "Harry"
+  },
+  {
+    "actor": "Daniel Stern"
+  }
+]
+use('cinema');
+db.movies.updateMany({
+  title: 'Home Alone'
+}, {
+  $addToSet: {
+    cast: {
+      $each: castHomeAlone
+    }
+  }
+});
+db.movies.find({
+  title: 'Home Alone'
+});
+
+// 9: Adicione o campo character com o valor Marv ao array de cast
+// em que o campo actor seja igual a Daniel Stern no filme Home Alone.
+use('cinema');
+db.movies.updateMany({
+  title: 'Home Alone',
+  "cast.actor": "Daniel Stern"
+}, {
+  $set: {
+    'cast.$.character': 'Marv'
+  }
+});
+db.movies.find({
+  title: 'Home Alone'
+});
+
+// 10: Crie um array de documentos chamado cast para o filme Batman com os seguintes dados:
+const castBatman = [{
+    "character": "Batman"
+  },
+  {
+    "character": "Alfred"
+  },
+  {
+    "character": "Coringa"
+  }
+]
+use('cinema');
+db.movies.updateMany({
+  title: 'Batman'
+}, {
+  $addToSet: {
+    cast: {
+      $each: castBatman
+    }
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+
+// 11: Produza três querys para o filme Batman:
+//-Adicione o campo actor, que deve ser um array com o valor Christian Bale, ao array de cast em que o campo character seja igual a Batman;
+use('cinema');
+db.movies.updateMany({
+  title: 'Batman',
+  'cast.character': 'Batman'
+}, {
+  $push: {
+    'cast.$.actor': 'Christian Bale'
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+//-Adicione o campo actor, que deve ser um array com o valor Michael Caine, ao array de cast em que o campo character seja igual a Alfred;
+use('cinema');
+db.movies.updateMany({
+  title: 'Batman',
+  'cast.character': 'Alfred'
+}, {
+  $push: {
+    'cast.$.actor': 'Michael Caine'
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+//-Adicione o campo actor, que deve ser um array com o valor Heath Ledger, ao array de cast em que o campo character seja igual a Coringa.
+use('cinema');
+db.movies.updateMany({
+  title: 'Batman',
+  'cast.character': 'Coringa'
+}, {
+  $push: {
+    'cast.$.actor': 'Heath Ledger'
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
+
+// 12: Adicione aos atores de cast do character Batman do filme Batman os valores "Michael Keaton",
+//  "Val Kilmer" e "George Clooney", e deixe o array em ordem alfabética.
+use('cinema');
+db.movies.updateOne({
+  title: 'Batman',
+  "cast.character": "Batman"
+}, {
+  $push: {
+    'cast.$.actor': {
+      $each: ['Michael Keaton', 'Val Kilmer', 'George Clooney'],
+      $sort: 1
+    }
+  }
+});
+db.movies.find({
+  title: 'Batman'
+});
