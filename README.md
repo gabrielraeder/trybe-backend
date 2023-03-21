@@ -73,32 +73,27 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 9-3: _Polimorfismo_
 - [X] 9-4: _SOLID - Introdução e Princípios S, O e D_
 - [X] 9-5: _SOLID - Princípios L e I_
-- [X] 9-6: _[Projeto - Trybers and Dragons]()_
+- [X] 9-6: _[Projeto - Trybers and Dragons](https://github.com/gabrielraeder/Trybers-Dragons)_
 
 ##### Seção 10: Projeto TFC - Trybe Futebol Clube
 
-- [X] 10-1: _[Projeto - Trybe Futebol Clube]()_
+- [X] 10-1: _[Projeto - Trybe Futebol Clube](https://github.com/gabrielraeder/trybe-futebol-clube)_
 
 ##### Seção 11: Introdução - MongoDB
 
 - [X] 11-1: _MongoDB - Introdução_
-- [ ] 11-2: _Filter Operators_
-- [ ] 11-3: _Operadores de consulta_
-- [ ] 11-4: _Updates simples_
-- [ ] 11-5: _Updates complexos - Arrays_
-- [ ] 11-6: _[Projeto - Commerce]()_
+- [X] 11-2: _Filter Operators_
+- [X] 11-3: _Operadores de consulta_
+- [X] 11-4: _Updates simples_
+- [X] 11-5: _Updates complexos - Arrays_
+- [X] 11-6: _[Projeto - Commerce]()_
 
 ##### Seção 12: MongoDB com Node.js e POO
 
-- [ ] 12-1: _Mongoose e arquitetura MSC (Camada Model)_
-- [ ] 12-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
-- [ ] 12-3: _[Projeto - Car Shop]()_
+- [X] 12-1: _Mongoose e arquitetura MSC (Camada Model)_
+- [X] 12-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [X] 12-3: _[Projeto - Car Shop]()_
 
 ##### Seção 13: Projeto - App de Delivery
 
-- [ ] 13-1: _[Projeto - App de Delivery]()_
-
-##### Seção 14: MasterClass - VPS, CI/CD
-
-- [ ] 14-1: _VPS_
-- [ ] 14-2: _Dia 2_
+- [X] 13-1: _[Projeto - App de Delivery]()_
