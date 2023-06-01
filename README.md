@@ -28,7 +28,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-1: _Funções mais usadas no SQL_
 - [X] 3-2: _Descomplicando JOINs_
 - [X] 3-3: _Transformando idéias em um modelo de dados_
-- [X] 3-4: _[Projeto - One for All](https://github.com/gabrielraeder/mysql-one-for-all)_
+- [X] 3-4: _[Projeto - One for All](https://github.com/gabrielraeder/back-end-projects/tree/main/mysql-one-for-all)_
 
 ##### Seção 4: Intro - NodeJS
 
