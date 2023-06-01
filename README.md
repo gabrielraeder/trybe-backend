@@ -13,7 +13,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 1-1: _Utilizando Containers_
 - [X] 1-2: _Manipulando Imagens Docker_
 - [X] 1-3: _Orquestrando containers com Docker Compose_
-- [X] 1-4: _[Projeto - Docker To-do-list](https://github.com/gabrielraeder/docker-todo-list)_
+- [X] 1-4: _[Projeto - Docker To-do-list](https://github.com/gabrielraeder/back-end-projects/tree/main/docker-todo-list)_
 
 ##### Seção 2: Introdução SQL
 
