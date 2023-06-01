@@ -37,7 +37,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-3: _Testes de Integração_
 - [X] 4-4: _Express e Middlewares_
 - [X] 4-5: _Express e MySQL_
-- [X] 4-6: _[Projeto - Talker Manager](https://github.com/gabrielraeder/talker-manager)_
+- [X] 4-6: _[Projeto - Talker Manager](https://github.com/gabrielraeder/back-end-projects/tree/main/talker-manager)_
 
 ##### Seção 5: Arquitetura de Software: Model, Service e Controller
 
