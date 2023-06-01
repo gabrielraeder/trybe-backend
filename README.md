@@ -44,7 +44,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-1: _Camada Model_
 - [X] 5-2: _Camada Service_
 - [X] 5-3: _Camada Controller_
-- [X] 5-4: _[Projeto - Store Manager](https://github.com/gabrielraeder/project-store-manager)_
+- [X] 5-4: _[Projeto - Store Manager](https://github.com/gabrielraeder/back-end-projects/tree/main/store-manager)_
 
 ##### Seção 6: Node.js: ORM e Autenticação
 
@@ -52,7 +52,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-2: _ORM - Associations 1:1 e 1:N_
 - [X] 6-3: _ORM - Associations N:N e Transactions_
 - [X] 6-4: _JWT - (JSON Web Token)_
-- [X] 6-5: _[Projeto - API de Blogs](https://github.com/gabrielraeder/blogs-api)_
+- [X] 6-5: _[Projeto - API de Blogs](https://github.com/gabrielraeder/back-end-projects/tree/main/blogs-api)_
 
 ##### Seção 7: Deployment
 
@@ -64,7 +64,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-1: _Introdução ao TypeScript_
 - [X] 8-2: _Tipagem Estática e Generics_
 - [X] 8-3: _Express com TypeScript_
-- [X] 8-4: _[Projeto - Trybesmith](https://github.com/gabrielraeder/trybesmith)_
+- [X] 8-4: _[Projeto - Trybesmith](https://github.com/gabrielraeder/back-end-projects/tree/main/trybesmith)_
 
 ##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
@@ -73,7 +73,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 9-3: _Polimorfismo_
 - [X] 9-4: _SOLID - Introdução e Princípios S, O e D_
 - [X] 9-5: _SOLID - Princípios L e I_
-- [X] 9-6: _[Projeto - Trybers and Dragons](https://github.com/gabrielraeder/Trybers-Dragons)_
+- [X] 9-6: _[Projeto - Trybers and Dragons](https://github.com/gabrielraeder/back-end-projects/tree/main/trybers-dragons)_
 
 ##### Seção 10: Projeto TFC - Trybe Futebol Clube
 
@@ -86,14 +86,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 11-3: _Operadores de consulta_
 - [X] 11-4: _Updates simples_
 - [X] 11-5: _Updates complexos - Arrays_
-- [X] 11-6: _[Projeto - Commerce]()_
+- [X] 11-6: _[Projeto - Commerce](https://github.com/gabrielraeder/back-end-projects/tree/main/mongodb-commerce)_
 
 ##### Seção 12: MongoDB com Node.js e POO
 
 - [X] 12-1: _Mongoose e arquitetura MSC (Camada Model)_
 - [X] 12-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
-- [X] 12-3: _[Projeto - Car Shop]()_
+- [X] 12-3: _[Projeto - Car Shop](https://github.com/gabrielraeder/back-end-projects/tree/main/car-shop)_
 
 ##### Seção 13: Projeto - App de Delivery
 
-- [X] 13-1: _[Projeto - App de Delivery]()_
+- [X] 13-1: _[Projeto - App de Delivery](https://github.com/gabrielraeder/Delivery-app)_
